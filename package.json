@@ -1,0 +1,12 @@
+{
+    "version": "0.0.1",
+    "scripts" : {
+        "test" : "node_modules/mocha/bin/mocha",
+        "tdd" : "node_modules/mocha/bin/mocha --watch"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "coffee-script": ">= 1.7.1",
+        "should": "*"
+    }
+}
